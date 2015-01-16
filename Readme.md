@@ -1,11 +1,15 @@
-#Classic One Time Pad cipher
+crypto-classic-otp
+==========================
 
-##Usage
+Classic One Time Pad cipher
 
-`var otp = require('../otp.js');
+Usage
+-----
 
-//encrypt
-var ciperText = otp.encipher('thisisthemessage','thisisthesecretkey');
-
-//decrypt
-var plainText = otp.decipher('moqkqkmoieiujezo ','thisisthekey');`
+  var otp = require('../otp.js');
+  
+  //encrypt
+  var ciperText = otp.encipher('thisisthemessage','thisisthesecretkey');
+  
+  //decrypt
+  var plainText = otp.decipher('moqkqkmoieiujezo ','thisisthekey');
