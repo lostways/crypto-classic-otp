@@ -1,0 +1,26 @@
+{
+  "name": "crypto-classic-otp",
+  "version": "1.0.0",
+  "description": "Classic one time pad cipher",
+  "main": "otp.js",
+  "scripts": {
+    "test": "jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostways/crypto-classic-otp.git"
+  },
+  "keywords": [
+    "otp",
+    "crypto"
+  ],
+  "author": "Andrew Lowe <andrew@lostways.com> (http://lostways.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lostways/crypto-classic-otp/issues"
+  },
+  "homepage": "https://github.com/lostways/crypto-classic-otp",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
