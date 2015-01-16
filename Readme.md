@@ -7,7 +7,7 @@ Usage
 -----
 
 ```
-var otp = require('../otp.js');
+var otp = require('crypto-classic-otp');
     
 //encrypt  
 var ciperText = otp.encipher('thisisthemessage','thisisthesecretkey');
